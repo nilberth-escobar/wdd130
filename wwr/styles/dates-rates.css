@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sofia+Sans:ital,wght@0,400;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.dates-rates{
+    font-size: 3rem;
+    font-family: "Bebas Neue";
+    letter-spacing: 10px;
+    text-align: center;
+    color: #669900;
+    font-weight: bold;
+}
+
+.summer-2023{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 100px;
+    position: relative;
+    align-content: center;
+}
+
+.navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 150px;
+    line-height: 80px;
+    z-index: 111;
+    background-color: gold;
+}
+
+.nav-items{
+    display: flex;
+    list-style: none;
+    margin: 25px;
+}
+
+.nav-items li a{
+    font-size: 40px;
+    font-family: "Bebas Neue";
+    margin: 0 150px;
+    letter-spacing: 8px;
+    text-decoration: none;
+
+    
+}
+
+.nav-items li:hover a{
+    color: white;
+    background-color: #0099CC;
+    transition: .5s
+    ;
+}
+
+.image-opening img{
+    width: 400px;
+    height: 400px;
+    opacity: 0.7;
+}
+
+.image-opening{
+    align-items: center;
+    grid-column: 1/2;
+    width: 400px;
+    height: 400px;
+    
+}
+
+.image-visiting img{
+    width: 400px;
+    height: 400px;
+    opacity: 0.6;
+}
+.image-visiting{
+    align-items: center;
+    grid-column: 2/3;
+    width: 400px;
+    height: 400px;
+}
+
+.image-closing img{
+    width: 400px;
+    height: 400px;
+    opacity: 0.6;
+}
+
+.image-closing{
+    align-items: center;
+    grid-column: 3/4;
+    width: 400px;
+    height: 400px;
+}
+
+.opening{
+    display: flex;
+    position: absolute;
+    grid-column: 1/2;
+    padding: 150px 0 0 90px;
+    font-family: "Bebas Neue";
+    font-size: 50px;
+    letter-spacing: 5px;
+    color:#FFCC33;
+    font-weight: bold;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    
+}
+
+.april-1{
+    display: flex;
+    position: absolute;
+    grid-column: 1/2;
+    padding: 350px 0 0 20px;
+    font-family: "Sofia Sans";
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+.visiting{
+    display: flex;
+    position: absolute;
+    grid-column: 2/3;
+    padding: 150px 0 0 90px;
+    font-family: "Bebas Neue";
+    font-size: 50px;
+    letter-spacing: 5px;
+    color:#FFCC33;
+    font-weight: bold;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+.may-6{
+    display: flex;
+    position: absolute;
+    grid-column: 2/3;
+    padding: 350px 0 0 20px;
+    font-family: "Sofia Sans";
+    font-size: 30px;
+    letter-spacing: 2.5px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+
+}
+
+.closing{
+    display: flex;
+    position: absolute;
+    grid-column: 3/4;
+    padding: 150px 0 0 90px;
+    font-family: "Bebas Neue";
+    font-size: 50px;
+    letter-spacing: 5px;
+    color:#FFCC33;
+    font-weight: bold;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
+.september-16{
+    display: flex;
+    position: absolute;
+    grid-column: 3/4;
+    padding: 350px 0 0 20px;
+    font-family: "Sofia Sans";
+    font-size: 30px;
+    letter-spacing: 2.5px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+
+}
+
+.trip-1 li, .trip-2 li, .trip-3 li, .trip-4 li{
+    list-style: none;
+}
+
+.trip-1 {
+    margin: 0 auto; /* Center horizontally */
+    max-width: 90%; /* Set maximum width for the content */
+    text-align: center; /* Center the content */
+    padding: 20px; /* Add some padding around the content */
+    border: 1px solid #ccc; /* Add a border for visual separation */
+    margin-bottom: 20px; /* Add some margin between the rows */
+    background-color: #FFCC33;
+  }
+
+.trip-2 {
+    margin: 0 auto; /* Center horizontally */
+    max-width: 90%; /* Set maximum width for the content */
+    text-align: center; /* Center the content */
+    padding: 20px; /* Add some padding around the content */
+    border: 1px solid #ccc; /* Add a border for visual separation */
+    margin-bottom: 20px; /* Add some margin between the rows */
+    background-color: #FFCC33;
+}
+
+.trip-3 {
+    margin: 0 auto; /* Center horizontally */
+    max-width: 90%; /* Set maximum width for the content */
+    text-align: center; /* Center the content */
+    padding: 20px; /* Add some padding around the content */
+    border: 1px solid #ccc; /* Add a border for visual separation */
+    margin-bottom: 20px; /* Add some margin between the rows */
+    background-color: #FFCC33;
+}
+
+.trip-4 {
+    margin: 0 auto; /* Center horizontally */
+    max-width: 90%; /* Set maximum width for the content */
+    text-align: center; /* Center the content */
+    padding: 20px; /* Add some padding around the content */
+    border: 1px solid #ccc; /* Add a border for visual separation */
+    margin-bottom: 20px; /* Add some margin between the rows */
+    background-color: #FFCC33;
+}
+
+h2{
+    font-family: Bebas Neue;
+    font-size: 70px;
+    color: #669900;
+    letter-spacing: 5px;
+}
+
+p{
+    font-family: "Sofia Sans";
+    font-size: 50px;
+}
+
+.trip-1 li, .trip-2 li, .trip-3 li, .trip-4 li{
+    font-size: 40px;
+}
+
+.tuition-1, .tuition-2{
+    font-size: 55px;
+    writing-mode: vertical-lr;
+    text-orientation:upright
+}
+
+.tuition-3{
+    font-size: 40px;
+    writing-mode: vertical-lr;
+    text-orientation:upright
+}
+
+.tuition-4{
+    font-size: 45px;
+    writing-mode: vertical-lr;
+    text-orientation:upright
+}
+
+.tuition-1{
+    color: white;
+    padding: 0 20px;
+    margin-top: -1830px;
+    margin-left: 10px;
+    background-color: #0099CC;
+}
+
+.tuition-2{
+    color: white;
+    padding: 0 20px;
+    margin-top: 115px;
+    margin-left: 15px;
+    background-color: #0099CC
+}
+
+.tuition-3{
+    color: white;
+    padding: 0 20px;
+    margin-top: 90px;
+    margin-left: 20px;
+    background-color: #0099CC;
+}
+
+.tuition-4{
+    color: white;
+    padding: 0 20px;
+    margin-top: 65px;
+    margin-left: 15px;
+    background-color: #0099CC;
+}
+
+.additional-fees{
+
+    margin: 10% auto; /* Center horizontally */
+    max-width: 90%; /* Set maximum width for the content */
+    text-align: center; /* Center the content */
+    padding: 20px; /* Add some padding around the content */
+    border: 1px solid #ccc; /* Add a border for visual separation */
+    margin-bottom: 20px; /* Add some margin between the rows */
+    background-color: #FFCC33;
+}
+
+.additional-fees p{
+    font-size: 30px;
+}
+
+.additional-fees-title{
+    margin: -27% auto; /* Center horizontally */
+    max-width: 90%; /* Set maximum width for the content */
+    text-align: center; /* Center the content */
+    padding: 20px; /* Add some padding around the content */
+    margin-bottom: 20px; /* Add some margin between the rows */
+    font-size: 50px;
+    color: #669900;
+    font-family: Bebas Neue;
+    letter-spacing: 7px;
+}
+
+.golf img, .tennis img, .horse img, .tent img{
+    width: 70%;
+    height: 70%;
+    opacity: 1;
+
+    
+}
+
+.other-activities{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 400px 10px 10px; 
+    background-color: #FFCC33;
+    opacity: .75;  
+    height: 500px;
+}
+
+.golf{
+    width: 100%;
+    grid-column: 1/2;
+    padding: 50px;
+}
+
+.tennis{
+    width: 100%;
+    grid-column: 2/3;
+    padding: 50px;
+}
+
+.horse{
+    width: 100%;
+    grid-column: 3/4;
+    padding: 50px;
+}
+
+.tent{
+    width: 100%;
+    grid-column: 4/5;
+    padding: 50px;
+}
+
+.activities-banner{
+    font-family: Bebas Neue;
+    color: #669900;
+    font-size: 50px;
+    grid-column: 1/5;
+    text-align: center;
+    opacity: none;
+    letter-spacing: 15px;
+}
+
+footer{
+    background-color:#669900;
+    color: white;
+}
+
+footer a{
+    color: black;
+    text-decoration: none;
+}
+
+footer a:hover{
+    background-color: white;
+    transition: .5s;
+}
+
+footer p{
+    font-size: 2em;
+}
+
+footer p a:hover{
+    text-decoration: none;
+}
+
+footer .social img{
+    padding-top: 15px;
+}
+
+footer{
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+footer .social img{
+    padding-top: 15px;
+}
+
+.logo_link img{
+    width: 13%;
+    height: 13%;
+}
+
+.logo{
+    margin: -300px 0 0 50px;
+}
