@@ -4,67 +4,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    
+    <title>Weblin</title>
 </head>
 <body>
 
-    <!-- MENU ENCABEZADO -->
-    <div class="contenedor-header">
+    <!-- HEADER -->
+    <div class="header-container">
         <header>
             <div class="logo">
-                <a href="#">Nick</a>
+                <a href="#">Nilberth</a>
             </div>
             <nav id="nav">
                 <ul>
-                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
-                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
-                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
-                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
-                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
-                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                    <li><a href="#Home">HOME</a></li>
+                    <li><a href="#Portfolio">PORTFOLIO</a></li>
+                    <li><a href="#Contact">CONTACT</a></li>
                 </ul>
             </nav>
-            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+            <div class="nav-responsive" onclick="showHideMenu()">
                 <i class="fa-solid fa-bars"></i>
             </div>
         </header>
     </div>
 
-    <!-- SECCION INICIO -->
-    <section id="inicio" class="inicio">
-        <div class="contenido-banner">
-            <div class="contenedor-img">
-                <img src="images/hero.png" alt="">
+    <!-- HOME SECCION -->
+    <section id="home" class="home">
+        <div class="banner-content">
+            <div class="img-container">
+                <img src="images/logo-personal-site.png" alt="">
             </div>
-            <h1>NICK PEREZ</h1>
-            <h2>Ingeniero de Software - Experto UI/UX</h2>
-            <div class="redes">
+            <h1>NILBERTH ESCOBAR</h1>
+            <h2> Software Engineer - UI/UX Expert </h2>
+            <div class="social-media">
                 <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-skype"></i></a>
                 <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                <a href="#"><i class="fa-solid fa-rss"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
             </div>
         </div>
     </section>
 
-    <!-- SECCION SOBRE MI -->
-    <section id="sobremi" class="sobremi">
-        <div class="contenido-seccion">
-            <h2>Sobre Mí</h2>
-            <p><span>Hola, soy Nick Perez.</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam unde soluta minima necessitatibus, voluptas consectetur vero officiis quas, explicabo deleniti repellendus aliquid debitis maiores numquam voluptate reprehenderit in delectus dolores.</p>
+    <!-- ABOUT ME SECTION -->
+    <section id="about-me" class="about-me">
+        <div class="section-content">
+            <h2>About Me</h2>
+            <p><span>Hello, my name is Nilberth Escobar.</span>  Welcome to my online portfolio! I am excited to share with you a collection of my work and accomplishments as a Web Developer. Through this platform, you will have the opportunity to explore my skills, creativity, and passion for my craft.</p>
 
-            <div class="fila">
-                <!-- datos personales -->
+            <p> <span> As a Web Developer,</span> I believe that my work should not only be aesthetically pleasing, but also meaningful and impactful. Each project that I undertake is a unique challenge that requires a deep understanding of my clients' needs and the context in which their projects exist. I am dedicated to creating innovative solutions that address these needs while staying true to my clients' vision.
+
+            <span> My portfolio</span> features a range of projects that showcase my skills and expertise. From branding and visual identity to website design and development, I have worked with a variety of clients in different industries. Whether it's a small business looking to establish their brand identity or a large corporation seeking to revamp their website, I approach each project with the same level of attention and commitment to excellence.
+                
+            <span> One of my favorite projects</span> was working with a school named Techno American Shool. The project involved designing databases, relations and roles for the teachers and management personal with 24 hour available site. I am proud to say that the final product exceeded my client's expectations and helped them achieve their business goals. You can read more about this project and others in my portfolio.
+                
+            <span> Whether you are a potential client,</span> a fellow designer, or simply someone who appreciates good design, I hope that my portfolio will inspire you and showcase the breadth and depth of my abilities. </p>
+
+            <div class="row">
+                <!-- personal info -->
                 <div class="col">
-                    <h3>Datos Personales</h3>
+                    <h3>Personal Information</h3>
                     <ul>
                         <li>
-                            <strong>Cumpleaños</strong>
-                            15-01-1980
-                        </li>
-                        <li>
-                            <strong>Teléfono</strong>
+                            <strong>Phone number</strong>
                             2555 5454545
                         </li>
                         <li>
@@ -73,110 +73,102 @@
                         </li>
                         <li>
                             <strong>Website</strong>
-                            www.example.com
+                            https://www.linkedin.com/in/nilberth-escobar-8a87b523a
                         </li>
                         <li>
-                            <strong>Dirección</strong>
+                            <strong>Address</strong>
                             123 San Luis, Argentina
                         </li>
                         <li>
-                            <strong>Cargo</strong>
+                            <strong>Rol</strong>
                             <span>FREELANCE</span>
                         </li>
                     </ul>
                 </div>
 
-                <!-- intereses -->
+                <!-- interests -->
                 <div class="col">
-                    <h3>Intereses</h3>
-                    <div class="contenedor-intereses">
-                        <div class="interes">
+                    <h3>Interests</h3>
+                    <div class="interests-container">
+                        <div class="interest">
                             <i class="fa-solid fa-gamepad"></i>
-                            <span>JUEGOS</span>
+                            <span>GAMES</span>
                         </div>
-                        <div class="interes">
+                        <div class="interest">
                             <i class="fa-solid fa-headphones"></i>
-                            <span>MUSICA</span>
+                            <span>MUSIC</span>
                         </div>
-                        <div class="interes">
+                        <div class="interest">
                             <i class="fa-solid fa-plane"></i>
-                            <span>VIAJAR</span>
+                            <span>TRAVEL</span>
                         </div>
-                        <div class="interes">
-                            <i class="fa-brands fa-apple"></i>
-                            <span>MAC OS</span>
-                        </div>
-                        <div class="interes">
+                        <div class="interest">
                             <i class="fa-solid fa-person-hiking"></i>
-                            <span>DEPORTE</span>
+                            <span>PUZZLES</span>
                         </div>
-                        <div class="interes">
-                            <i class="fa-solid fa-book"></i>
-                            <span>LIBROS</span>
-                        </div>
-                        <div class="interes">
+                        <div class="interest">
                             <i class="fa-solid fa-car"></i>
-                            <span>AUTOS</span>
+                            <span>SCIENCE</span>
                         </div>
-                        <div class="interes">
+                        <div class="interest">
                             <i class="fa-solid fa-camera"></i>
-                            <span>FOTOS</span>
+                            <span>PHOTOS</span>
                         </div>
                         
                     </div>
                 </div>
             </div>
             <button>
-                Descargar CV <i class="fa-solid fa-download"></i>
+                Download CV <i class="fa-solid fa-download"></i>
                 <span class="overlay"></span>
             </button>
         </div>
     </section>
 
-    <!-- SECCION SKILLS -->
+    <!-- SKILLS SECTION-->
     <section class="skills" id="skills">
-        <div class="contenido-seccion">
+        <div class="section-content">
             <h2>Skills</h2>
-            <div class="fila">
+            <div class="row">
                 <!-- Technical Skill -->
                 <div class="col">
                     <h3>Technical Skills</h3>
                     <div class="skill">
                         <span>Javascript</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
+                        <div class="skill-bar">
+                            <div class="progress">
                                 <span>75%</span>
                             </div>
                         </div>
                     </div>
                     <div class="skill">
                         <span>HTML & CSS</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
+                        <div class="skill-bar">
+                            <div class="progress">
                                 <span>89%</span>
                             </div>
                         </div>
                     </div>
                     <div class="skill">
                         <span>Photoshop</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
+                        <div class="skill-bar">
+                            <div class="progress">
                                 <span>95%</span>
                             </div>
                         </div>
                     </div>
                     <div class="skill">
-                        <span>Wordpress</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
+                        <span>Illustrator</span>
+                        <div class="skill-bar">
+                            <div class="progress">
                                 <span>81%</span>
                             </div>
                         </div>
                     </div>
                     <div class="skill">
                         <span>Drupa</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
+                        <div class="skill-bar">
+                            <div class="progress">
                                 <span>55%</span>
                             </div>
                         </div>
@@ -186,41 +178,41 @@
                 <div class="col">
                     <h3>Professional Skills</h3>
                     <div class="skill">
-                        <span>Comunicación</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
+                        <span>Communication</span>
+                        <div class="skill-bar">
+                            <div class="progress">
                                 <span>80%</span>
                             </div>
                         </div>
                     </div>
                     <div class="skill">
-                        <span>Trabajo en Equipo</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
+                        <span>Team Work</span>
+                        <div class="skill-bar">
+                            <div class="progress">
                                 <span>70%</span>
                             </div>
                         </div>
                     </div>
                     <div class="skill">
-                        <span>Creatividad</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
+                        <span>Creativity</span>
+                        <div class="skill-bar">
+                            <div class="progress">
                                 <span>99%</span>
                             </div>
                         </div>
                     </div>
                     <div class="skill">
-                        <span>Dedicación</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
+                        <span>Dedication</span>
+                        <div class=skill-bar">
+                            <div class="progress">
                                 <span>65%</span>
                             </div>
                         </div>
                     </div>
                     <div class="skill">
                         <span>Proyect Management</span>
-                        <div class="barra-skill">
-                            <div class="progreso">
+                        <div class="skill-bar">
+                            <div class="progress">
                                 <span>94%</span>
                             </div>
                         </div>
@@ -229,6 +221,8 @@
             </div>
         </div>
     </section>
+
+    
     
 </body>
 </html>

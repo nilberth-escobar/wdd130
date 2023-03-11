@@ -54,10 +54,12 @@ html{
     border-radius: 5px;
     cursor: pointer;
     display: none;
+    
 }
 /* SECCION I N I C I O */
 .inicio{
-    background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
+   
+   background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
     url(images/fondo.jpg);
     background-size: cover;
     height: 100vh;
@@ -590,7 +592,7 @@ html{
     top: 40%;
     background-color: #252A2E;
     padding: 20px;
-    max-swidth: 350px;
+    max-width: 350px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
