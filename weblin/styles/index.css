@@ -11,41 +11,44 @@ html{
 }
 /* MENU */
 .header-container{
-    background: #1e2326;
+    background:#2d3284;
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
     z-index: 99;
 }
+
+.header-container .logo img{
+    width: 20%;
+}
+
 .header-container header{
     max-width: 1100px;
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 20px;
+    padding: 5px 20px;
 }
 .header-container header .logo a{
-    font-family: 'Righteous';
-    font-size: 36px;
-    color: #1CB698;
-    text-decoration: none;
+    display: flex;
 }
-.contenedor-header header ul{
+.header-container header ul{
     display: flex;
     list-style: none;
 }
-.contenedor-header header nav ul li a{
+.header-container header nav ul li a{
     text-align: none;
-    color: #fff;
+    color: #d52fa0;
     margin: 0 15px;
-    padding: 3px;
+    padding: 30px;
     transition: .5s;
     text-decoration: none;
 }
-.contenedor-header header nav ul li a:hover{
-    color: #1CB698;
+.header-container header nav ul li a:hover{
+    color: #44e6ee;
+    
 }
 .nav-responsive{
     background-color: #1CB698;
@@ -57,28 +60,43 @@ html{
 }
 /* SECCION I N I C I O */
 .home{
-    background-image: linear-gradient(to left bottom, #44e6ee, #00bbe2, #008ecf, #0061b0, #2d3284);
+    
+    /*background-image: linear-gradient(to left bottom, #44e6ee, #00bbe2, #008ecf, #0061b0, #2d3284), url("/weblin/images/home-1.jpg");*/
 
+    background: linear-gradient(to top, rgba(66, 77, 83, 0.8), rgba(30,35,38,1)),
+    url(../images/home-1.jpg);
 
+    /*background-image: url(../images/home-1.jpg);*/
     /*background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
-    url(images/fondo.jpg);*/
+    url("images/Home-1.jpg");*/
     background-size: cover;
     height: 100vh;
     color: #fff;
     display: flex;
     align-items: center;
+    
 }
-.inicio .contenido-banner{
+
+.banner-content h1{
+    letter-spacing: 5px;
+}
+
+.banner-content h2{
+    letter-spacing: 5px;
+}
+
+.home .banner-content{
     padding: 20px;
-    background-color: #1e2326;
-    max-width: 350px;
+    background-color: #2d3284;
+    max-width: 450px;
+    max-height: 650px;
     margin: auto;
     text-align: center;
     border-radius: 40px;
 }
 .home .banner-content img{
     margin-top: 40px;
-    border: 10px solid #1CB698;
+    border: 5px solid #44e6ee;
     display: block;
     width: 80%;
     margin: auto;
@@ -97,7 +115,7 @@ html{
     color: #fff;
     display: inline-block;
     text-decoration: none;
-    border: 1px solid #fff;
+    border: 2px solid #fff;
     border-radius: 100%;
     width: 42px;
     height: 42px;
@@ -106,71 +124,75 @@ html{
     font-size: 20px;
     transition: .3s;
 }
-.inicio .contenido-banner .redes a:hover{
-    background-color: #1CB698;
+.home .banner-content .social-media a:hover{
+    background-color: #44e6ee;
 }
-.sobremi{
-    background-color: #1e2326;
+.about-me{
+
+    background-image: linear-gradient(to right top, #2d3284, #0056a5, #0078bf, #009ad3, #00bbe2, #00c0ec, #00c6f5, #00cbff, #2db2ff, #7992fd, #b269da, #d52fa0);
+
+    /*background-color: white;*/
     color: #fff;
     padding: 50px 20px;
+    font-size: 20px;
 }
-.sobremi .contenido-seccion{
+.about-me .section-content{
     max-width: 1100px;
     margin: auto;
 }
-.sobremi h2{
+.about-me h2{
     font-size: 48px;
     font-family: 'Righteous';
     text-align: center;
     padding: 20px 0;
 
 }
-.sobremi .contenido-seccion p{
+.about-me .section-content p{
     font: 18px;
     line-height: 22px;
     margin-bottom: 20px;
 }
-.sobremi .contenido-seccion p span{
-    color: #1CB698;
+.about-me .section-content p span{
+    color:#d52fa0;
     font-weight: bold;
 }
-.sobremi .fila{
+.about-me .row{
     display: flex;
 }
-.sobremi .fila .col
+.about-me .row .col
 {
     width: 50%;
 }
-.sobremi .fila .col h3{
+.about-me .row .col h3{
     font-size: 28px;
     font-family: 'Righteous';
     margin-bottom: 25px;
 }
-.sobremi .fila .col ul{
+.about-me .row .col ul{
     list-style: none;
 }
-.sobremi .fila .col ul li{
+.about-me .row .col ul li{
     margin: 12px 0;
 }
-.sobremi .fila .col ul li strong{
+.about-me .row .col ul li strong{
     display: inline-block;
-    color: #1CB698;
+    color:#d52fa0;
     width: 130px;
 }
-.sobremi .fila .col ul li span{
-    background-color: #1CB698;
+.about-me .row .col ul li span{
+    background-color:#d52fa0;
     padding: 3px;
     font-weight: bold;
     border-radius: 5px;
 }
-.sobremi .fila .col .contenedor-intereses{
+.about-me .row .col .interests-container{
     display: flex;
     flex-wrap: wrap;
 }
-.sobremi .fila .col .contenedor-intereses .interes{
+.about-me .row .col .interests-container .interest{
     width: 100px;
     height: 100px;
-    background-color: #252A2E;
+    background-color:#2d3284;
     border-radius: 10px;
     margin: 0 15px 15px 0;
     display: flex;
@@ -178,14 +200,15 @@ html{
     align-items: center;
     justify-content: center;
     transition: .3s;
-}.sobremi .fila .col .contenedor-intereses .interes:hover{
-    background-color: #1CB698;
+
+}.about-me .row .col .interests-container .interest:hover{
+    background-color: #d52fa0;
 }
-.sobremi .fila .col .contenedor-intereses .interes i{
+.about-me .row .col .interests-container .interest i{
     font-size: 30px;
     margin-bottom: 10px;
 }
-.sobremi button{
+.about-me button{
     cursor: pointer;
     background-color: transparent;
     border: 2px solid #fff;
@@ -198,26 +221,26 @@ html{
     position: relative;
     z-index: 10;
 }
-.sobremi button .overlay{
+.about-me button .overlay{
     position: absolute;
     top: 0;
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #1CB698;
+    background-color:#d52fa0;
     z-index: -1;
     transition: 1s;
 }
-.sobremi button:hover .overlay{
+.about-me button:hover .overlay{
     width: 100%;
 }
-/* SECCION S K I L L S */
+/* S K I L L S  S E C T I O N */
 .skills{
-    background-color: #252A2E;
-    color: #fff;
+    background-color:#2d3284;
+    color: white;
     padding: 50px 20px;
 }
-.skills .contenido-seccion{
+.skills .section-content{
     max-width: 1100px;
     margin: auto;
 }
@@ -228,14 +251,14 @@ html{
     padding: 20px 0;
 
 }
-.skills .fila{
+.skills .row{
     display: flex;
 }
-.skills .fila .col{
+.skills .row .col{
     width: 50%;
     padding: 0 20px;
 }
-.skills .fila .col h3{
+.skills .row .col h3{
     font-size: 28px;
     font-family: 'Righteous';
     margin-bottom: 25px;
@@ -245,21 +268,21 @@ html{
     display: block;
     margin-bottom: 10px;
 }
-.skills .skill .barra-skill{
+.skills .skill .skill-bar{
     height: 8px;
     width: 80%;
-    background-color: #131517;
+    background-color: white;
     position: relative;
     margin-bottom: 30px;
 }
-.skills .skill .progreso{
-    background-color: #1CB698;
+.skills .skill .progress{
+    background-color:#d52fa0;
     position: absolute;
     top: 0;
     left: 0;
     height: 8px;
 }
-.skills .skill .barra-skill span{
+.skills .skill .skill-bar span{
     position: absolute;
     height: 40px;
     width: 40px;
@@ -299,11 +322,11 @@ html{
     100%{width: 95%;}
 }
 
-.skills .skill .wordpress{
+.skills .skill .illustrator{
     width: 0%;
-    animation: 2s wordpress forwards;
+    animation: 2s illustrator forwards;
 }
-@keyframes wordpress {
+@keyframes illustrator {
     0%{width: 0%;}
     100%{width: 81%;}
 }
@@ -317,11 +340,11 @@ html{
     100%{width: 55%;}
 }
 
-.skills .skill .comunicacion{
+.skills .skill .communication{
     width: 0%;
-    animation: 2s comunicacion forwards;
+    animation: 2s communication forwards;
 }
-@keyframes comunicacion {
+@keyframes communication {
     0%{width: 0%;}
     100%{width: 80%;}
 }
@@ -353,11 +376,77 @@ html{
     100%{width: 65%;}
 }
 
-.skills .skill .proyect{
+.skills .skill .project{
     width: 0%;
-    animation: 2s proyect forwards;
+    animation: 2s project forwards;
 }
-@keyframes proyect {
+@keyframes project {
     0%{width: 0%;}
     100%{width: 94%;}
+}
+
+footer{
+    display: flex;
+    /*background-image: url(../images/footer.jpg);*/
+
+    background: linear-gradient(to top, rgba(66, 77, 83, 0.8), rgba(30,35,38,1)),
+    url(../images/footer.jpg);
+
+    width: 100%;
+    height: 150px;
+    
+    color: white;
+    padding: 25px 50px;
+    margin-top: 20px;
+    background-size: cover;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer p a{
+    text-decoration: none;
+    margin: 5px;
+    color:white;
+    text-align: left;
+}
+
+footer p{
+    font-size: 1.5em;
+}
+
+.social-media-footer a{
+    color: white;
+    padding: 15px 5px;
+    font-size: 30px;
+}
+
+footer p a:hover{
+   background-color: #1CB698;
+   color:black;
+   transition: .5s;
+}
+
+.social-media-footer a:hover{
+    background-color: #1CB698;
+    color:#2d3284;
+ }
+
+.go-top{
+    margin: -205px auto;
+    width: 50px;
+    height: 50px;
+    background-color: #1CB698;
+    color: #fff;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -25px;
+    border-radius: 50%;
+    line-height: 50px;
+    font-size: 18px;
+      
+}
+
+.interest svg{
+    width: 50px;
 }
