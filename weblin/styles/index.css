@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Economica:wght@400;700&family=Roboto+Mono:wght@400;500;700&display=swap');
 *{
     box-sizing: border-box;
-    font-family: 'Work Sans';
+    
     margin: 0;
     padding: 0;
 }
@@ -17,6 +17,9 @@ html{
     top: 0;
     left: 0;
     z-index: 99;
+    font-family: Economica;
+    font-size: 25px;
+    letter-spacing: 5px;
 }
 
 .header-container .logo img{
@@ -30,6 +33,7 @@ html{
     justify-content: space-between;
     align-items: center;
     padding: 5px 20px;
+    
 }
 .header-container header .logo a{
     display: flex;
@@ -80,10 +84,14 @@ html{
 
 .banner-content h1{
     letter-spacing: 5px;
+    font-family: Economica;
 }
 
 .banner-content h2{
     letter-spacing: 5px;
+    font-family: Economica;
+    
+    
 }
 
 .home .banner-content{
@@ -107,11 +115,12 @@ html{
 .home .banner-content h1{
     margin-top: 40px;
     font-size: 42px;
-    font-family: 'Righteous';
+    font-family: Economica;
 }
 .home .banner-content h2{
-    font-size: 15px;
-    font-weight: normal;
+    font-size: 20px;
+    font-weight:bolder;
+   
 }
 .home .banner-content .social-media a{
     color: #fff;
@@ -143,16 +152,18 @@ html{
     margin: auto;
 }
 .about-me h2{
-    font-size: 48px;
-    font-family: 'Righteous';
+    font-size: 65px;
     text-align: center;
     padding: 20px 0;
+    font-family: Economica;
+    letter-spacing: 5px;
 
 }
 .about-me .section-content p{
     font: 18px;
     line-height: 22px;
     margin-bottom: 20px;
+    font-family: Roboto Mono;
 }
 .about-me .section-content p span{
     color:#d52fa0;
@@ -160,14 +171,17 @@ html{
 }
 .about-me .row{
     display: flex;
+    font-family: Economica;
+    letter-spacing: 3px;
 }
-.about-me .row .col
-{
+.about-me .row .col{
     width: 50%;
+    font-family: Roboto Mono;
+    
 }
 .about-me .row .col h3{
     font-size: 28px;
-    font-family: 'Righteous';
+    font-family: Economica;
     margin-bottom: 25px;
 }
 .about-me .row .col ul{
@@ -175,17 +189,23 @@ html{
 }
 .about-me .row .col ul li{
     margin: 12px 0;
+    font-size: 20px;
 }
 .about-me .row .col ul li strong{
     display: inline-block;
     color:#d52fa0;
     width: 130px;
 }
+
+.about-me .col span{
+    font-size: 15px;
+}
 .about-me .row .col ul li span{
     background-color:#d52fa0;
     padding: 3px;
     font-weight: bold;
     border-radius: 5px;
+    
 }
 .about-me .row .col .interests-container{
     display: flex;
@@ -222,6 +242,7 @@ html{
     color: #fff;
     position: relative;
     z-index: 10;
+    font-family: Roboto Mono;
 }
 .about-me button .overlay{
     position: absolute;
@@ -248,13 +269,15 @@ html{
 }
 .skills h2{
     font-size: 48px;
-    font-family: 'Righteous';
+    font-family: Economica;
     text-align: center;
     padding: 20px 0;
+    letter-spacing: 15px;
 
 }
 .skills .row{
     display: flex;
+
 }
 .skills .row .col{
     width: 50%;
@@ -262,13 +285,15 @@ html{
 }
 .skills .row .col h3{
     font-size: 28px;
-    font-family: 'Righteous';
+    font-family: Economica;
     margin-bottom: 25px;
 }
 .skills .skill > span{
     font-weight: bold;
     display: block;
     margin-bottom: 10px;
+    font-family: Roboto Mono;
+    letter-spacing: 3px;
 }
 .skills .skill .skill-bar{
     height: 8px;
@@ -295,6 +320,7 @@ html{
     top: -17px;
     right: -15px;
     font-size: 14px;
+    font-family: Roboto Mono;
 }
 /* Estas clases se agregaran dinamicamente mediante javascript */
 .skills .skill .javascript{
@@ -403,6 +429,7 @@ footer{
     background-size: cover;
     justify-content: space-around;
     align-items: center;
+    
 }
 
 footer p a{
@@ -410,10 +437,12 @@ footer p a{
     margin: 5px;
     color:white;
     text-align: left;
+    font-family: Roboto Mono;
 }
 
 footer p{
     font-size: 1.5em;
+    font-family: Roboto Mono;
 }
 
 .social-media-footer a{
