@@ -98,6 +98,19 @@ html{
     color: #d52fa0;
 }
 
+.contact .col button img{
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+    color: white;
+    padding: 0;
+}
+
+footer a img{
+    width: 30px;
+    height: 30px;
+}
+
 .contact button{
     cursor: pointer;
     background-color: transparent;
