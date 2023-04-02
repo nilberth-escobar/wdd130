@@ -17,7 +17,7 @@ html{
     top: 0;
     left: 0;
     z-index: 99;
-    font-family: "Economica";
+    font-family:"Economica";
     font-size: 25px;
     letter-spacing: 5px;
 }
@@ -69,10 +69,9 @@ html{
 }
 .contact h2{
     font-size: 48px;
-    font-family: 'Righteous';
     text-align: center;
     padding: 20px 0;
-    font-family: "Economica";
+    font-family:"Economica";
     letter-spacing: 10px;
 }
 .contact .raw{
@@ -188,12 +187,12 @@ footer p a{
     margin: 5px;
     color:white;
     text-align: left;
-    font-family: Roboto Mono;
+    font-family: "Roboto Mono";
 }
 
 footer p{
     font-size: 1.5em;
-    font-family: Roboto Mono;
+    font-family: "Roboto Mono";
 }
 
 .social-media-footer a{
