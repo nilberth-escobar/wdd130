@@ -266,8 +266,6 @@ footer p{
     font-size: 30px;
 }
 
-
-
 footer p a:hover{
    background-color: #1CB698;
    color:black;
@@ -278,3 +276,10 @@ footer p a:hover{
     background-color: #1CB698;
     color: black;
  }
+
+.social-media-footer a img{
+    width: 30px;
+    height: 30px;
+    color-scheme: white;
+    
+}

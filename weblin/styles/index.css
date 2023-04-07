@@ -79,7 +79,6 @@ html{
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 
 .banner-content h1{
@@ -90,8 +89,6 @@ html{
 .banner-content h2{
     letter-spacing: 5px;
     font-family: Economica;
-    
-    
 }
 
 .home .banner-content{
@@ -102,8 +99,8 @@ html{
     margin: auto;
     text-align: center;
     border-radius: 40px;
-   
 }
+
 .home .banner-content img{
     margin-top: 40px;
     border: 5px solid #44e6ee;
@@ -112,6 +109,7 @@ html{
     margin: auto;
     border-radius: 100%;
 }
+
 .home .banner-content h1{
     margin-top: 40px;
     font-size: 42px;
@@ -120,8 +118,8 @@ html{
 .home .banner-content h2{
     font-size: 20px;
     font-weight:bolder;
-   
 }
+
 .home .banner-content .social-media a{
     color: #fff;
     display: inline-block;
@@ -135,6 +133,11 @@ html{
     font-size: 20px;
     transition: .3s;
 }
+
+.home .banner-content .social-media a img{
+    margin-top: 4px;
+}
+
 .home .banner-content .social-media a:hover{
     background-color: #44e6ee;
 }
@@ -205,12 +208,13 @@ html{
     padding: 3px;
     font-weight: bold;
     border-radius: 5px;
-    
 }
+
 .about-me .row .col .interests-container{
     display: flex;
     flex-wrap: wrap;
 }
+
 .about-me .row .col .interests-container .interest{
     width: 100px;
     height: 100px;
@@ -222,14 +226,17 @@ html{
     align-items: center;
     justify-content: center;
     transition: .3s;
+}
 
-}.about-me .row .col .interests-container .interest:hover{
+.about-me .row .col .interests-container .interest:hover{
     background-color: #d52fa0;
 }
-.about-me .row .col .interests-container .interest i{
+
+.about-me .row .col .interests-container .interest img{
     font-size: 30px;
     margin-bottom: 10px;
 }
+
 .about-me button{
     cursor: pointer;
     background-color: transparent;
@@ -257,6 +264,15 @@ html{
 .about-me button:hover .overlay{
     width: 100%;
 }
+
+.col .interest img{
+    width: 50px;
+    height: 50px;
+    color: black;
+}
+
+
+
 /* S K I L L S  S E C T I O N */
 .skills{
     background-color:#2d3284;
@@ -460,9 +476,15 @@ footer p a:hover{
 .social-media-footer a:hover{
     background-color: #1CB698;
     color: black;
+    
+    transition: .5s;
  }
 
 .interest svg{
     width: 50px;
 }
 
+footer a img{
+    width: 30px;
+    height: 30px;
+}
