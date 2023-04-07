@@ -17,7 +17,7 @@ html{
     top: 0;
     left: 0;
     z-index: 99;
-    font-family: Economica;
+    font-family: "Economica";
     font-size: 25px;
     letter-spacing: 5px;
 }
@@ -43,13 +43,14 @@ html{
     list-style: none;
 }
 .header-container header nav ul li a{
-    text-align: none;
+    
     color: #d52fa0;
     margin: 0 15px;
     padding: 30px;
     transition: .5s;
     text-decoration: none;
 }
+
 .header-container header nav ul li a:hover{
     color: #44e6ee;
     
@@ -83,12 +84,12 @@ html{
 
 .banner-content h1{
     letter-spacing: 5px;
-    font-family: Economica;
+    font-family: "Economica";
 }
 
 .banner-content h2{
     letter-spacing: 5px;
-    font-family: Economica;
+    font-family: "Economica";
 }
 
 .home .banner-content{
@@ -113,7 +114,7 @@ html{
 .home .banner-content h1{
     margin-top: 40px;
     font-size: 42px;
-    font-family: Economica;
+    font-family: "Economica";
 }
 .home .banner-content h2{
     font-size: 20px;
@@ -158,7 +159,7 @@ html{
     font-size: 65px;
     text-align: center;
     padding: 20px 0;
-    font-family: Economica;
+    font-family: "Economica";
     letter-spacing: 5px;
 
 }
@@ -166,7 +167,7 @@ html{
     font: 18px;
     line-height: 22px;
     margin-bottom: 20px;
-    font-family: Roboto Mono;
+    font-family: "Roboto Mono";
 }
 .about-me .section-content p span{
     color:#d52fa0;
@@ -174,17 +175,17 @@ html{
 }
 .about-me .row{
     display: flex;
-    font-family: Economica;
+    font-family: "Economica";
     letter-spacing: 3px;
 }
 .about-me .row .col{
     width: 50%;
-    font-family: Roboto Mono;
+    font-family: "Roboto Mono";
     
 }
 .about-me .row .col h3{
     font-size: 28px;
-    font-family: Economica;
+    font-family: "Economica";
     margin-bottom: 25px;
 }
 .about-me .row .col ul{
@@ -249,7 +250,7 @@ html{
     color: #fff;
     position: relative;
     z-index: 10;
-    font-family: Roboto Mono;
+    font-family: "Roboto Mono";
 }
 .about-me button .overlay{
     position: absolute;
@@ -285,7 +286,7 @@ html{
 }
 .skills h2{
     font-size: 48px;
-    font-family: Economica;
+    font-family: "Economica";
     text-align: center;
     padding: 20px 0;
     letter-spacing: 15px;
@@ -301,14 +302,14 @@ html{
 }
 .skills .row .col h3{
     font-size: 28px;
-    font-family: Economica;
+    font-family: "Economica";
     margin-bottom: 25px;
 }
 .skills .skill > span{
     font-weight: bold;
     display: block;
     margin-bottom: 10px;
-    font-family: Roboto Mono;
+    font-family: "Roboto Mono";
     letter-spacing: 3px;
 }
 .skills .skill .skill-bar{
@@ -336,7 +337,7 @@ html{
     top: -17px;
     right: -15px;
     font-size: 14px;
-    font-family: Roboto Mono;
+    font-family: "Roboto Mono";
 }
 /* Estas clases se agregaran dinamicamente mediante javascript */
 .skills .skill .javascript{
@@ -453,12 +454,12 @@ footer p a{
     margin: 5px;
     color:white;
     text-align: left;
-    font-family: Roboto Mono;
+    font-family: "Roboto Mono";
 }
 
 footer p{
     font-size: 1.5em;
-    font-family: Roboto Mono;
+    font-family: "Roboto Mono";
 }
 
 .social-media-footer a{
